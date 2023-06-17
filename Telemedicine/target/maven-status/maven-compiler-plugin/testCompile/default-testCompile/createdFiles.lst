@@ -1,0 +1,7 @@
+com\telemedicine\pageTest\DashboardPageTest.class
+com\telemedicine\pageTest\RegisterPageTest.class
+com\telemedicine\pageTest\PreviousRecordTest.class
+com\telemedicine\pageTest\PatientAppointmentPageTest.class
+com\telemedicine\pageTest\IndexPageTest.class
+com\telemedicine\pageTest\PatientProfilePageTest.class
+com\telemedicine\pageTest\LoginPageTest.class

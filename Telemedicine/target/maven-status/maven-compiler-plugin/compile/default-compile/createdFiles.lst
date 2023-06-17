@@ -1,0 +1,10 @@
+com\telemedicine\page\PatientProfilePage.class
+com\telemedicine\base\Base.class
+com\telemedicine\page\LoginPage.class
+com\telemedicine\page\Dashboard.class
+com\telemedicine\util\ExplicitWait.class
+com\telemedicine\page\IndexPage.class
+com\telemedicine\page\PatientAppointmentPage.class
+com\telemedicine\util\Utils.class
+com\telemedicine\page\RegisterPage.class
+com\telemedicine\page\PreviousRecord.class

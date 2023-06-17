@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.telemedicine.pageTest.PatientAppointmentPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="fix_Appointment_Test"/>
+        </methods>
+      </class> <!-- com.telemedicine.pageTest.PatientAppointmentPageTest -->
+      <class name="com.telemedicine.pageTest.RegisterPageTest">
+        <methods>
+          <include name="RegisterTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="TitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.telemedicine.pageTest.RegisterPageTest -->
+      <class name="com.telemedicine.pageTest.PatientProfilePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createPatientProfile"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.telemedicine.pageTest.PatientProfilePageTest -->
+      <class name="com.telemedicine.pageTest.PreviousRecordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="add_Record_Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.telemedicine.pageTest.PreviousRecordTest -->
+      <class name="com.telemedicine.pageTest.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.telemedicine.pageTest.LoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
